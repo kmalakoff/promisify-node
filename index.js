@@ -103,9 +103,9 @@ module.exports = function(name, test) {
 
   // If the name argument is a String, will need to resovle using the built in
   // Node require function.
-  if (typeof name === "string") {
-    exports = require(name);
-  }
+  // if (typeof name === "string") {
+  //   exports = require(name);
+  // }
 
   // Iterate over all properties and find asynchronous functions to convert to
   // promises.
